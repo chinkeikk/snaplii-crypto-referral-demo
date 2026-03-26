@@ -847,8 +847,35 @@ body {
                 </div>
                 <div class="hero-card">
                   <div class="context-line">
-                    <div class="context-pill"><div class="usdc-dot"><span>$</span></div><span class="context-pill-text">Pay gift cards with USDC · USDT</span></div>
+                    <div class="context-pill" style="gap:6px;padding:5px 14px 5px 8px;"><svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="16" cy="16" r="16" fill="#2775CA"/><path d="M16 4C9.37 4 4 9.37 4 16s5.37 12 12 12 12-5.37 12-12S22.63 4 16 4zm1.2 18.56v1.52a.48.48 0 01-.48.48h-.96a.48.48 0 01-.48-.48v-1.5C12.1 22.24 10.4 20.6 10.2 18.4a.48.48 0 01.48-.48h1.04c.24 0 .44.17.47.41.2 1.4 1.4 2.39 3.81 2.39 1.92 0 3.4-.84 3.4-2.4 0-1.4-.84-2.1-3.12-2.64l-.76-.18C12.9 14.96 11.2 13.8 11.2 11.4c0-2.16 1.64-3.84 4.08-4.24V5.64a.48.48 0 01.48-.48h.96a.48.48 0 01.48.48v1.54c2.7.44 4.2 2.1 4.36 4.14a.48.48 0 01-.48.52h-1a.48.48 0 01-.47-.41c-.2-1.46-1.28-2.31-3.41-2.31-2.1 0-3.2.96-3.2 2.28 0 1.3.8 2.04 3 2.56l.76.18c2.84.68 4.64 1.8 4.64 4.32 0 2.24-1.68 4.04-4.2 4.5z" fill="white"/></svg><svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><path d="M16 1L2 13l14 18L30 13 16 1z" fill="#26A17B"/><path d="M17.2 13.6v-2h3.8V9H11v2.6h3.8v2c-3.2.16-5.6.8-5.6 1.6s2.4 1.44 5.6 1.6v5.8h2v-5.8c3.2-.16 5.6-.8 5.6-1.6s-2.4-1.44-5.6-1.6z" fill="white"/></svg><span class="context-pill-text">Pay gift cards with USDC · USDT</span></div>
                   </div>
+
+                  <!-- gift card visual strip — inside card, above reward -->
+                  <div style="margin:0 0 14px;overflow:hidden;">
+                    <div style="font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-3);margin-bottom:7px;font-family:var(--font-head);">Available gift cards</div>
+                    <div style="display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;margin:0 -2px;">
+                      <div style="flex-shrink:0;width:76px;height:46px;border-radius:7px;background:linear-gradient(135deg,#FF5A5F,#E00B41);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.13);">
+                        <div style="font-size:10px;font-weight:800;color:#fff;letter-spacing:-.3px;">airbnb</div>
+                      </div>
+                      <div style="flex-shrink:0;width:76px;height:46px;border-radius:7px;background:linear-gradient(135deg,#1A1F71,#2563EB);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.13);">
+                        <div style="font-size:12px;font-weight:900;color:#fff;letter-spacing:1px;font-style:italic;">VISA</div>
+                        <div style="font-size:6.5px;color:rgba(255,255,255,0.7);letter-spacing:.4px;margin-top:1px;">VIRTUAL GIFT</div>
+                      </div>
+                      <div style="flex-shrink:0;width:76px;height:46px;border-radius:7px;background:linear-gradient(135deg,#FF3008,#C0200A);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.13);">
+                        <div style="font-size:9.5px;font-weight:800;color:#fff;">DoorDash</div>
+                      </div>
+                      <div style="flex-shrink:0;width:76px;height:46px;border-radius:7px;background:linear-gradient(135deg,#232F3E,#131A22);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.13);">
+                        <div style="font-size:10px;font-weight:800;color:#FF9900;">amazon</div>
+                      </div>
+                      <div style="flex-shrink:0;width:76px;height:46px;border-radius:7px;background:linear-gradient(135deg,#00704A,#004E33);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.13);">
+                        <div style="font-size:9.5px;font-weight:800;color:#fff;">Starbucks</div>
+                      </div>
+                      <div style="flex-shrink:0;width:60px;height:46px;border-radius:7px;background:var(--bg);border:1px dashed #C8CCDB;display:flex;align-items:center;justify-content:center;">
+                        <div style="font-size:9.5px;font-weight:600;color:var(--text-3);text-align:center;line-height:1.3;">+100<br>more</div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="reward-eyebrow">Your welcome reward</div>
                   <div class="reward-main"><span class="reward-up-to">up to </span><span class="reward-amount">$50</span><span class="reward-unit"> USDC off</span></div>
                   <div class="reward-desc">on your first gift card purchase</div>
@@ -859,6 +886,15 @@ body {
               </div>
 
               <div class="benefits">
+                <!-- no fees — moved to first -->
+                <div class="benefit-row">
+                  <div class="benefit-icon" style="background:#FEF3C7;">⚡</div>
+                  <div class="benefit-body">
+                    <div class="benefit-title">1 USDC = 1 USD, no fees</div>
+                    <div class="benefit-desc">No processing fees, no exchange spread. Pay exactly the face value.</div>
+                    <span class="benefit-tag benefit-tag-amber">Zero extra cost</span>
+                  </div>
+                </div>
                 <!-- cashback -->
                 <div class="benefit-row">
                   <div class="benefit-icon" style="background:#F0FDF4;">💸</div>
@@ -877,23 +913,6 @@ body {
                       <div class="brand-chip"><div class="brand-chip-color" style="background:#cc0000;font-size:7px;">TG</div><div class="brand-chip-earn">Target&nbsp;<b>2.5%</b></div></div>
                       <div class="more-chip">+100 more</div>
                     </div>
-                  </div>
-                </div>
-                <!-- no fees -->
-                <div class="benefit-row">
-                  <div class="benefit-icon" style="background:#FEF3C7;">⚡</div>
-                  <div class="benefit-body">
-                    <div class="benefit-title">1 USDC = 1 USD, no fees</div>
-                    <div class="benefit-desc">No processing fees, no exchange spread. Pay exactly the face value.</div>
-                    <span class="benefit-tag benefit-tag-amber">Zero extra cost</span>
-                  </div>
-                </div>
-                <!-- anonymous -->
-                <div class="benefit-row">
-                  <div class="benefit-icon" style="background:var(--bg);">🕶</div>
-                  <div class="benefit-body">
-                    <div class="benefit-title">Anonymous purchases under $500</div>
-                    <div class="benefit-desc">No tax reporting, no KYC required for <strong>each</strong> purchase under $500.</div>
                   </div>
                 </div>
                 <!-- wallet demo -->
@@ -973,6 +992,14 @@ body {
                       <div class="icon-chip"><div class="icon-dot" style="background:#FBCC5C;"></div>BNB Chain</div>
                       <div class="icon-chip" style="color:var(--text-3);">+8 more</div>
                     </div>
+                  </div>
+                </div>
+                <!-- anonymous — moved to after network -->
+                <div class="benefit-row">
+                  <div class="benefit-icon" style="background:var(--bg);">🕶</div>
+                  <div class="benefit-body">
+                    <div class="benefit-title">Anonymous purchases under $500</div>
+                    <div class="benefit-desc">No tax reporting, no KYC required for <strong>each</strong> purchase under $500.</div>
                   </div>
                 </div>
               </div><!-- /benefits -->
